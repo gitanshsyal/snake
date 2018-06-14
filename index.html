@@ -7,7 +7,7 @@ $(document).ready(function(){
     $("#c1").click(function(){
         $("#main1").show("slow");
         $("#main4").hide("slow");
-	
+	$("#me").hide("slow");
     });
 });
 </script>
@@ -26,7 +26,7 @@ $(document).ready(function(){
         $("#main3").show("slow");
         $("#main4").hide("slow");
         $("#main1").hide("slow");
-	
+	 $("#me").hide("slow");
     });
 });
 
@@ -158,6 +158,8 @@ margin-left:100px;color:lightblue;display:none;font-size:23px;}
 }
 #img10{
 margin-left:300px;color:lightblue;display:none;font-size:23px;}
+	#me{
+		color:blue;}
 </style>
 </head>
 <body>
@@ -192,12 +194,13 @@ Gitansh Syal</a></div>
 <div id="img10"><a style="text-decoration:none" href="http://dailylifestyleaddress.blogspot.com">Dailylifestyle</a></div>
 
 
-</div>
+</div><div id="me">
 <div style="margin-left:580px;margin-top:-680px;font-size:30px;color:blue">Enter your Name</div>
 <div style="margin-left:600px;margin-top:10px;"><input type="input type="text" id="work1" name="work1" onclick="work()" value=""/></div>
 <div style="margin-left:750px;margin-top:-23px;"><input style="display:none" type="text" id="work2" name="work2"  size="14"value="Enter your name"/></div>
 <div style="margin-left:640px;margin-top:30px;color:blue;"><a style="text-decoration:none;color:blue;" href="animated.html"><input type="button" name="button1" id="button1"  value="start me"></a></div>
-
+	
+	</div>
 
 
 </body>
