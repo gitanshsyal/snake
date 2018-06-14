@@ -1,0 +1,204 @@
+<html>
+<head>
+<script src="jquery/jquery.js"></script>
+<script> 
+
+$(document).ready(function(){
+    $("#c1").click(function(){
+        $("#main1").show("slow");
+        $("#main4").hide("slow");
+	
+    });
+});
+</script>
+<script> 
+
+$(document).ready(function(){
+    $("#main4").click(function(){
+        $("#c1").slideToggle("slow");
+    });
+});
+</script>
+<script> 
+
+$(document).ready(function(){
+    $("#c2").click(function(){
+        $("#main3").show("slow");
+        $("#main4").hide("slow");
+        $("#main1").hide("slow");
+	
+    });
+});
+
+</script>
+<script> 
+
+$(document).ready(function(){
+    $("#img1").click(function(){
+        $("#img2").show("slow");
+        $("#main4").hide("slow");
+        $("#main1").hide("slow");
+        $("#img4").hide("slow");
+    
+	
+    });
+});
+
+</script>
+<script> 
+
+$(document).ready(function(){
+    $("#img3").click(function(){
+        $("#img4").show("slow");
+        $("#main4").hide("slow");
+        $("#main1").hide("slow");
+        $("#img2").hide("slow");
+        $("#img6").hide("slow");
+        $("#img10").hide("slow");
+      
+	
+    });
+});
+
+
+</script>
+<script> 
+
+$(document).ready(function(){
+    $("#img5").click(function(){
+        $("#img6").show("slow");
+        $("#main4").hide("slow");
+        $("#main1").hide("slow");
+        $("#img2").hide("slow");
+        $("#img4").hide("slow");
+        $("#img6").hide("slow");
+        $("#img10").hide("slow");
+      
+	
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#img7").click(function(){
+        $("#img8").show("slow");
+        $("#main4").hide("slow");
+        $("#main1").hide("slow");
+        $("#img2").hide("slow");
+        $("#img4").hide("slow");
+        $("#img6").hide("slow");
+        $("#img10").hide("slow");
+      
+	
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#img9").click(function(){
+        $("#img10").show("slow");
+        $("#main4").hide("slow");
+        $("#main1").hide("slow");
+        $("#img2").hide("slow");
+        $("#img4").hide("slow");
+        $("#img6").hide("slow");
+        $("#img8").hide("slow");
+      
+	
+    });
+});
+</script>
+<script>
+function work()
+{
+a=document.getElementById("work1");
+b=document.getElementById("work2");
+if(a.value=="")
+{
+b.style="display:inline";}
+else{
+b.style="display:none";}
+}
+</script>
+<style>
+#main{
+float:right;position:absolute;color:white;font-size:33px;margin-left:900px;padding:20px;margin-top:-110px;border:3px;width:50%}
+#main li
+{
+display:inline;float:left;width:400px;}
+#main1{
+color:blue;font-size:49px;margin-left:600px;margin-top:40px;display:none;}
+#main4{
+background-color:lightgrey;height:900px;width:1900px;}
+#main3{
+color:blue;font-size:49px;margin-left:600px;margin-top:40px;display:none;}
+#img1
+{margin-left:-500px;
+}
+#img2{margin-left:-540px;
+font-size:23px;color:lightblue;display:none;}
+#img3
+{margin-left:-300px;margin-top:-90px;
+}
+#img4{
+margin-left:-300px;color:lightblue;display:none;font-size:23px;}
+#img5
+{margin-left:-100px;margin-top:-90px;
+}
+#img6{
+margin-left:-100px;color:lightblue;display:none;font-size:23px;}
+#img7
+{margin-left:100px;margin-top:-90px;
+}
+#img8{
+margin-left:100px;color:lightblue;display:none;font-size:23px;}
+#img9
+{margin-left:300px;margin-top:-90px;
+}
+#img10{
+margin-left:300px;color:lightblue;display:none;font-size:23px;}
+</style>
+</head>
+<body>
+<div style="background-color:darkblue;width:200%;height:150px"> </div>
+<div style="color:white;margin-top:-100px;font-size:90px;margin-left:60px;width:30%">Snake</div>
+<div>
+<ul id="main">
+<li id="c1">About</li>
+<li id="c2">Contact Us</li>
+</div>
+<div id="main1"><div><u>ABOUT</u></div>
+
+<div style="color:blue;font-size:33px;">As we are in 21st century.We all want more and more lively themes,animations,wallpapers and
+2d world first turned into 3d and now 5d,8d and 9d have came to existence.
+So,i made one small animation on the game
+"snakes".I hope you all will like it and do give your views on it.Thank you....</div>
+<div style="margin-left:-500px;margin-top:-230px"><img src="snake.jpg"></div></div>
+<div id="main4"></div>
+<div id="main3"><div><u>CONTACT US</u></div>
+<div style="font-size:31px;margin-left:-500px;margin-top:50px;">So,this was small animation made by me
+.Hope you must had enjoyed and like it..You all can give your views or feedback by</div>
+<div id="img1" ><img src="gmail1.png" width="100px" height="100px"></div>
+<div id="img2"><a  style="text-decoration:none" href="gitanshsyal@gmail.com">gitanshsyal@gmail.com</div>
+<div id="img3"><img  src="Facebook-logo.jpg" width="100px" height="80px"></div>
+<div id="img4"><a style="text-decoration:none" href="http://m.facebook.com/gitansh.syal.3?ref_component=mbasic_home_header&ref_page=%2Fwap%2Fhome.php&refid=8&ref=opera_speed_dial">
+Gitansh Syal</a></div>
+<div id="img5"><img src="instagram_logo.jpg" width="100px" height="100px"></div>
+<div id="img6"><a style="text-decoration:none" href="http://www.instagram.com/p/BjkmGP2An5m/">Gitansh syal</a></div>
+<div id="img7"><img src="LOGO1.png" width="100px" height="100px"></div>
+<div id="img8"><a style="text-decoration:none" href="www.instragram.com/dailylifestyle11/">Dailylifestyle</a></div>
+<div id="img9"><img src="blog.png" width="100px" height="100px"></div>
+<div id="img10"><a style="text-decoration:none" href="http://dailylifestyleaddress.blogspot.com">Dailylifestyle</a></div>
+
+
+</div>
+<div style="margin-left:580px;margin-top:-680px;font-size:30px;color:blue">Enter your Name</div>
+<div style="margin-left:600px;margin-top:10px;"><input type="input type="text" id="work1" name="work1" onclick="work()" value=""/></div>
+<div style="margin-left:750px;margin-top:-23px;"><input style="display:none" type="text" id="work2" name="work2"  size="14"value="Enter your name"/></div>
+<div style="margin-left:640px;margin-top:30px;color:blue;"><a style="text-decoration:none;color:blue;" href="animated.html"><input type="button" name="button1" id="button1"  value="start me"></a></div>
+
+
+
+</body>
+</html
